@@ -69,7 +69,7 @@ URL = "#portfolio"
 weight = 4
 
 #[[menu.main]]
-#name = "Blog"
+#name = "Testimonial"
 #URL = "#testimonial"
 #weight = 5
 

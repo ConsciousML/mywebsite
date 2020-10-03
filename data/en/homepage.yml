@@ -25,7 +25,7 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable : true
-  bg_image : "images/backgrounds/coffee.jpg"
+  bg_image : "images/backgrounds/coffeecup.jpg"
   first_name : "Axel"
   last_name : "MENDOZA"
   
