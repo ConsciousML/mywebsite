@@ -13,7 +13,7 @@ hero:
   slider_image:
     - "images/slider/banner1.jpg"
     - "images/slider/banner2.jpg"
-    - "images/slider/banner1.jpg"
+    - "images/slider/banner3.jpg"
 
   # button
   button:
