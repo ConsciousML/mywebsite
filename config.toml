@@ -3,7 +3,7 @@ baseURL = "/"
 title = "Axel Mendoza Porfolio"
 theme = "somrat"
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = [true] # desable language from here
 features = ["blog",]
 
 ############################# Plugins ##############################
@@ -64,7 +64,7 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "Portfolio"
+name = "Projects"
 URL = "#portfolio"
 weight = 4
 
