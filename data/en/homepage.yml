@@ -120,22 +120,13 @@ service:
 
 ############################## call to action #########################
 call_to_action:
-  enable : false
+  enable : true
   bg_image : "images/backgrounds/need-service.jpg"
   title : "NEED A SERVICE?"
   button:
     enable : true
     label : "SAY HELLO!"
     link : "#contact"
-
-
-############################## blog ###########################
-blog:
-  enable: true
-  # Leave header text blank to remove entire <section>
-  header: "Recent Posts"
-  buttonText: "Read More"
-  postCount: 2
 
 
 ############################# portfolio ################################
