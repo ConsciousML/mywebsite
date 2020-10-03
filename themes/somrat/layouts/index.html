@@ -214,7 +214,7 @@
           <li>
             <div class="single-experience">
               <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}<br>
               {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
             </div>
@@ -243,6 +243,35 @@
       </div>
       {{ end }}
       {{ end }}
+    </div>
+
+    <div class="row experience-skill">
+      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+        <h3>EDUCATION</h3>
+        <ul class="experience-chart">
+          <li>
+            <div class="single-experience">
+              <h4>EPITA</h4>
+              <span>Graduate School of Computer Science</span><br>
+              <span>Paris, France</span><br>
+              <span>2015-2018</span>
+              <p>Top 1 computer engineering school in France. <br>Artificial intelligence major.</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="experience-chart">
+          <li>
+            <div class="single-experience">
+              <h4>Sejong University</h4>
+              <span>세종대학교</span><br>
+              <span>Seoul, South Korea</span><br>
+              <span>2015</span>
+              <p>Exchange student for 6 months</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
     </div>
   </div>
 </section>

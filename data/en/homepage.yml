@@ -52,20 +52,20 @@ experience:
     # experience item loop
     - name : "SIEMENS"
       company : "Machine Learning Intern"
-      duration : "2019 - 14 months"
+      duration : "2019, 14 months"
       content : "Deep Learning for healthcare. Coronary calcium classification on X-ray data using Unet and ResNet3D. \
       Blood flow de-aliasing on 3D color doppler data."
       
     # experience item loop
     - name : "ENGIE"
       company : "Machine Learning Intern"
-      duration : "2018 - 7 months"
+      duration : "2018, 7 months"
       content : "Deep metric learning for multi-camera car re-identification and tracking for powerplant surveillance. \
       Attended the European Conference on Computer Vision and implemented state-of-the-art triplet loss re-id model."
 
     - name : "SAP"
       company : "Software Engineering Intern"
-      duration : "2016 - 6 months"
+      duration : "2016, 6 months"
       content : "Implemented an automatic testing platform for SAP products."
 
 
