@@ -121,11 +121,11 @@ service:
 ############################## call to action #########################
 call_to_action:
   enable : true
-  bg_image : "images/backgrounds/need-service.jpg"
-  title : "WANT TO KNOW MORE ?"
+  bg_image : "images/backgrounds/beans.jpg"
+  title : "WANT TO GRAB A COFFEE ?"
   button:
     enable : true
-    label : "Contact me"
+    label : "CONTACT ME"
     link : "#contact"
 
 
