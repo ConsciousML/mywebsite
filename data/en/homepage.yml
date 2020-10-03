@@ -122,10 +122,10 @@ service:
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "NEED A SERVICE?"
+  title : "WANT TO KNOW MORE ?"
   button:
     enable : true
-    label : "SAY HELLO!"
+    label : "Contact me"
     link : "#contact"
 
 
