@@ -328,18 +328,43 @@
     <div class="row about-me-holder">
       <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
         <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
-          <h1>{{ .title | safeHTML }}</h1>
-          <p>{{ .content | markdownify | emojify }}</p>
+          <h1>Vehicle Re-Identification</h1>
+          <p>This is a description</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang" {{ if .download }}download{{ if .filename }}="{{ .filename }}" {{ end }} {{ end }}> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
+        <img class="img-fluid" src="images/projects/wines.jpg" alt="about-me">
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <br>
+    <br>
+    {{ if $data.homepage.about.enable }}
+    {{ with $data.homepage.about }}
+    <div class="row about-me-holder">
+      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+          <h1>Coronary Calcium Classification</h1>
+          <p>This is a description</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ with .image }}
+      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+        <img class="img-fluid" src="images/projects/wines.jpg" alt="about-me">
       </div>
       {{ end }}
     </div>
@@ -348,6 +373,8 @@
     </div>
   </div>
 </section>
+
+
 <!-- =============================
        End Portfolio
     =============================== -->
