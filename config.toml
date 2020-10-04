@@ -3,7 +3,7 @@ baseURL = "/"
 title = "Axel Mendoza Porfolio"
 theme = "somrat"
 # disable language
-disableLanguages = [true] # desable language from here
+disableLanguages = true # desable language from here
 features = ["blog",]
 
 ############################# Plugins ##############################

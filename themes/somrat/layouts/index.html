@@ -101,7 +101,9 @@
         {{ end }}
         <li class="menu-item hvr-underline-from-left 1"><a href="https://consciousml.github.io/blog/">Blog</a></li>
       </ul>
+
       <!-- Language List -->
+      <!--
       {{- if .Site.IsMultiLingual }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := .Site.Languages}}
@@ -122,6 +124,7 @@
         {{ end }}
       </select>
       {{ end }}
+      -->
       <!-- /desktop-menu -->
 
       <!-- mobile-menu -->
@@ -453,7 +456,7 @@
           </p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> READ THE BLOG &nbsp; &nbsp; &nbsp;</a>
+          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
