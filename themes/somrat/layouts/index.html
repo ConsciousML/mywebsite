@@ -361,6 +361,75 @@
    </section>
    {{ end }}
    {{ end }} 
+    <!-- =============================
+       Car Re-ID
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h1>Car Re-Identification</h1>
+         <p>State-of-the-art implementation of a multi-camera vehicle re-identification.
+           The main challenge of this project was to build a model able to extract features of cars in real-time
+           to recognize the exact same car in different cameras.
+           The model trained on triplet loss is capable to recognize fine-grained details: broken wheel,
+           objects on the board, or stickers to differentiate two cars with same model and color in a 360° fashion.
+           I implemented the state-of-the-art of 2018 and adapted a pedestrian re-identification paper to improve the solution.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/cadillac.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+   <br>
+
+    <!-- =============================
+       Coronary Calcium
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h1>Coronary Calcium Classification</h1>
+         <p>Coronary calcium scan is a test that measures the amount of calcium in the walls of the heart’s arteries.
+           On the long run, a high quantity of calcium in the arteries results to death.
+           The goal of this project was to build a coronary calcium classification model to predict the risk of patients death.
+           I trained the model on 3D X-ray data using Unet and a ResNet3D.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/heart.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+   
+    <br>
+
+    <!-- =============================
+       ML BLOG
+    =============================== -->
     {{ if $data.homepage.about.enable }}
     {{ with $data.homepage.about }}
     <div class="row about-me-holder">
@@ -384,7 +453,7 @@
           </p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> LEARN MORE &nbsp; &nbsp; &nbsp;</a>
+          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> READ THE BLOG &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
@@ -398,30 +467,7 @@
     {{ end }}
     {{ end }}
 
-    <br>
-    <br>
-    {{ if $data.homepage.about.enable }}
-    {{ with $data.homepage.about }}
-    <div class="row about-me-holder">
-      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
-        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
-          <h1>Coronary Calcium Classification</h1>
-          <p>This is a description</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-      {{ with .image }}
-      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="images/projects/wines.jpg" alt="about-me">
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-    {{ end }}
+    
     </div>
   </div>
 </section>
