@@ -204,6 +204,10 @@
     {{ end }}
     {{ end }}
 
+
+    <!-- =============================
+            Experiences
+    =============================== -->
     <div class="row experience-skill">
       {{ if $data.homepage.experience.enable }}
       {{ with $data.homepage.experience }}
@@ -225,6 +229,9 @@
       {{ end }}
       {{ end }}
 
+    <!-- =============================
+            Skills
+    =============================== -->
       {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
       <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
@@ -245,6 +252,9 @@
       {{ end }}
     </div>
 
+    <!-- =============================
+            Education
+    =============================== -->
     <div class="row experience-skill">
       <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
         <h3>EDUCATION</h3>
@@ -356,18 +366,32 @@
     <div class="row about-me-holder">
       <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
         <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
-          <h1>Vehicle Re-Identification</h1>
-          <p>This is a description</p>
+          <h1>Machine Learning Blog</h1>
+          <p>From scratch implementation in Pytorch of the following algorithms:
+            <ul>
+            <li>Support Vector Machine</li>
+            <li>Decision Tree</li>
+            <li>Random Forest</li>
+            <li>Adaboost</li>
+            <li>K-means</li>
+            <li>Gaussian Mixture Model</li>
+            <li>Naive Bayes Classifier</li>
+            <li>Polynomial Regression</li>
+            <li>K-Nearest Neighbors</li>
+            <li>Logistic Regression</li>
+            <li>Linear Regression.</li>
+            </ul>
+          </p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> LEARN MORE &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
-        <img class="img-fluid" src="images/projects/wines.jpg" alt="about-me">
+        <img class="img-fluid" src="images/projects/dices.jpg" alt="about-me">
       </div>
       {{ end }}
     </div>

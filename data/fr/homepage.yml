@@ -1,18 +1,19 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "I'm Axel Mendoza"
 
   # animated text loop
   occupations:
-    - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
+    - "Machine Learning Engineer"
+    - "Data Science Blogger"
+    - "Trilingual"
+    - "Avid meditator"
 
   # slider background image loop
   slider_image:
     - "images/slider/banner1.jpg"
     - "images/slider/banner2.jpg"
-    - "images/slider/banner1.jpg"
+    - "images/slider/banner3.jpg"
 
   # button
   button:
@@ -24,17 +25,19 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable : true
-  bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  bg_image : "images/backgrounds/coffeecup.jpg"
+  first_name : "Axel"
+  last_name : "MENDOZA"
   
 
 ########################### About ##################################
 about:
   enable : true
-  image : "images/backgrounds/portrait.jpg"
+  image : "images/me.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "Hi, I'm Axel Mendoza. A machine learning engineer based in Paris. \
+  I dedicate myself to computer vision, blogging about IA and meditation. \
+  Always trying to create the best content for my fellow readers and staying close to an espresso cup."
   # button
   button:
     enable : true
@@ -47,49 +50,53 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "SIEMENS"
+      company : "Machine Learning Intern"
+      duration : "2019, 14 months"
+      content : "Deep Learning for healthcare. Coronary calcium classification on X-ray data using Unet and ResNet3D. \
+      Blood flow de-aliasing on 3D color doppler data."
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
-    # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "ENGIE"
+      company : "Machine Learning Intern"
+      duration : "2018, 7 months"
+      content : "Deep metric learning for multi-camera car re-identification and tracking for powerplant surveillance. \
+      Attended the European Conference on Computer Vision and implemented state-of-the-art triplet loss re-id model."
+
+    - name : "SAP"
+      company : "Software Engineering Intern"
+      duration : "2016, 6 months"
+      content : "Implemented an automatic testing platform for SAP products."
 
 
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "SKILLS"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name : "Python"
       parcentage : "98%"
       
     # skill item loop
-    - name : "Graphic Design"
-      parcentage : "85%"
+    - name : "Tensorflow"
+      parcentage : "80%"
       
     # skill item loop
-    - name : "Database Management"
+    - name : "Pytorch"
       parcentage : "90%"
       
     # skill item loop
-    - name : "Wordpress"
+    - name : "C++"
       parcentage : "70%"
+    
+    - name : "Research investigation"
+      parcentage: "90%"
 
 
 ################################### Service ##############################3
 service:
-  enable : true
+  enable : False
   title : "SERVICES"
   service_list:
     # service item loop
@@ -120,11 +127,11 @@ service:
 ############################## call to action #########################
 call_to_action:
   enable : true
-  bg_image : "images/backgrounds/need-service.jpg"
-  title : "NEED A SERVICE?"
+  bg_image : "images/backgrounds/beans.jpg"
+  title : "WANT TO GRAB A COFFEE ?"
   button:
     enable : true
-    label : "SAY HELLO!"
+    label : "CONTACT ME"
     link : "#contact"
 
 
@@ -138,90 +145,6 @@ portfolio:
       image : "images/portfolio/item1.jpg"
       date : "Feb 2018"
       category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item3.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item4.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item5.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item6.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item7.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item8.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item9.jpg"
-      date : "Feb 2018"
-      category : "Database"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item10.jpg"
-      date : "Feb 2018"
-      category : "Database"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item11.jpg"
-      date : "Feb 2018"
-      category : "Database"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item12.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item13.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item14.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item15.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
 
 
 ################################# Testimonial #########################33
@@ -236,21 +159,6 @@ testimonial:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
                 omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
                 
-    # slider item loop
-    - name : "Peter Parker"
-      image : "images/clients/client2.jpg"
-      designation : "CEO, RANDOM COMPANY"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
-                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-                
-    # slider item loop
-    - name : "Jessica Jones"
-      image : "images/clients/client3.jpg"
-      designation : "CEO, RANDOM COMPANY"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
-                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
-
-
 ######################### funfacts #############################3
 funfacts:
   enable : true
@@ -274,6 +182,8 @@ funfacts:
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"
       count : "150"
+
+
 
 
 ############################## contact ###########################
