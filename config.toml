@@ -84,7 +84,7 @@ weight = 6
 logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
-description = "This is meta description"
+description = "I'm Axel Mendoza. A machine learning engineer based in Paris. I dedicate myself to computer vision, blogging about IA and meditation. "
 author = "somrat"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
