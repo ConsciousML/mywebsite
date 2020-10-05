@@ -178,9 +178,8 @@ funfacts:
       image : "images/icons/happy.png"
       count : "79"
       
-      
     # funfacts item loop
-    - name : "COFFE AT WORK"
+    - name : "COFFEE AT WORK"
       image : "images/icons/coffee.png"
       count : "2430"
 
