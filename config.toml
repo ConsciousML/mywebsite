@@ -87,7 +87,7 @@ logo_dark = "images/logo-dark.png"
 description = "I'm Axel Mendoza. A machine learning engineer based in Paris. I dedicate myself to computer vision, blogging about IA and meditation. "
 author = "somrat"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xoqpjqeq" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 
