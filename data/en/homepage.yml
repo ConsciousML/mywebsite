@@ -164,9 +164,9 @@ funfacts:
   enable : true
   funfacts_list:
     # funfacts item loop
-    - name : "JOBS"
+    - name : "WORK HOURS"
       image : "images/icons/works.png"
-      count : "3"
+      count : "4104"
       
     # funfacts item loop
     - name : "BLOG POSTS"
