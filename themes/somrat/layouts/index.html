@@ -285,14 +285,13 @@
         </ul>
       </div>
 
-  
-
    <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
     <div class="row">
       <div class="testimonials-container col-lg-8 offset-lg-2">
         {{ if $data.homepage.testimonial.enable }}
         {{ with $data.homepage.testimonial }}
         <h3>FUNFACTS</h3>
+        <br>
         <div class="owl-carousel owl-theme wow fadeInUp" data-wow-duration="1.5s">
           {{ range .testimonial_slider }}
           <div class="single-testimonial">
