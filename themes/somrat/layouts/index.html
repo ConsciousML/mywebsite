@@ -376,36 +376,181 @@
     <div class="row portfolio-holder text-left">
         
       <!-- Text for categories -->
-      <div class="col-12 text-center">
-        <h1 class="wow fadeInUp" data-wow-duration="1.5s">PROJECTS</h1>
-      </div>
-
       <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
         <div class="row filtr-container wow fadeInUp list" data-wow-duration="1.5s">
           {{ range .portfolio_list }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item" data-category="{{ .category | urlize }}">
-            <div class="item-holder">                
-              <!-- Images of the portfolio-->
-              <!--
-              <a href="{{ .image | absURL }}" title="{{ .name | safeHTML }}">
-                  <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
-                <div class="item-caption">
-                  <h2>{{ .name | safeHTML }}</h2>
-                  <p>{{ .category | title }}</p>
-                  <div class="item-created">{{ .date }}</div>
-                </div>
-                -->
-              </a>
-            </div>
           </div>
           {{ end }}
         </div>
       </div>
     </div>
   </div>
+  <section class="about-me" id="about">
+    <div class="container">
+      <!-- =============================
+       PROJECTS TITLE
+    =============================== -->
+   {{ if $data.homepage.portfolio.enable }}
+   {{ with $data.homepage.portfolio }}
+   <section class="portfolio" id="portfolio">
+     <div class="container-fluid text-center">
+       <div class="row portfolio-holder text-left">
+         <!-- Text for categories -->
+         <div class="col-12 text-center">
+           <h1 class="wow fadeInUp" data-wow-duration="1.5s">PROJECTS</h1>
+         </div>
+       </div>
+     </div>
+   </section>
+   {{ end }}
+   {{ end }} 
+    <!-- =============================
+       Car Re-ID
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h1>Car Re-Identification</h1>
+         <p>State-of-the-art implementation of a multi-camera vehicle re-identification.
+           The main challenge of this project was to build a model able to extract features of cars in real-time
+           to recognize the exact same car in different cameras.
+           The model, trained on triplet loss, is capable to recognize fine-grained details: broken wheel,
+           objects on the board, or stickers to differentiate two cars with the same model and color in a 360° fashion.
+           I implemented the state-of-the-art of 2018 and adapted a pedestrian re-identification paper to improve the solution.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="reid_results.pdf" class="download-cv hvr-icon-hang"> RESULTS &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/cadillac.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+   <br>
+
+    <!-- =============================
+       Coronary Calcium
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h1>Coronary Calcium Classification</h1>
+         <p>Coronary calcium scan is a test that measures the amount of calcium in the walls of the heart’s arteries.
+           A patient with a high quantity of calcium in his arteries will inevitably die without the proper treatment.
+           The goal of this project was to build a coronary calcium classifier to predict the severity of the patients heart disease.
+           The model was able to predict for every calcium point in which artery it was located as it is very important to know if the calcium is
+           in the main or in minor arteries.
+           Trained the model on 3D X-ray data using a hand-made CNN.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/heart.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+   <br>
+
+    <!-- =============================
+       SmartCar
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h1>Autonomous Remote Car</h1>
+         <p>Designed an autonomous driving remote car.
+           Assembled a Raspberry on top of a remote-controlled car embedded with a Convolutional Neural Network.
+            Trained the model on some data captured while driving the car using an xbox controller and some virtual data generated with the
+            <a href="https://docs.donkeycar.com/guide/simulator/">DonkeyCar simulator</a>. This project was held during my last year at EPITA as
+            a graduation project and was selected to be shown at my university open house.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="https://github.com/ConsciousML/Autonomous-RC-Car" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/smartcar.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+    <br>
+
+    <!-- =============================
+       ML BLOG
+    =============================== -->
+    {{ if $data.homepage.about.enable }}
+    {{ with $data.homepage.about }}
+    <div class="row about-me-holder">
+      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+          <h1>Machine Learning Blog</h1>
+          <p>From scratch implementation in Pytorch of the following algorithms:
+            <ul>
+            <li>Support Vector Machine</li>
+            <li>Decision Tree</li>
+            <li>Random Forest</li>
+            <li>Adaboost</li>
+            <li>K-means</li>
+            <li>Gaussian Mixture Model</li>
+            <li>Naive Bayes Classifier</li>
+            <li>Polynomial Regression</li>
+            <li>K-Nearest Neighbors</li>
+            <li>Logistic Regression</li>
+            <li>Linear Regression.</li>
+            </ul>
+          </p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="https://github.com/ConsciousML/ml-from-scratch" class="download-cv hvr-icon-hang"> GITHUB &nbsp; &nbsp; &nbsp;</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ with .image }}
+      <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
+        <img class="img-fluid" src="images/projects/dices.jpg" alt="about-me">
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+    </div>
+  </section>
 </section>
 {{ end }}
 {{ end }}
+
 <!-- =============================
        End Portfolio
     =============================== -->
