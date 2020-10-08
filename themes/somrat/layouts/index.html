@@ -22,19 +22,19 @@
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
-          <h1 class="introduction animate__animated animate__bounceInDown animate__delay-1s">{{ .title | markdownify | emojify }}</h1>
+          <h1 class="introduction animate__animated animate__bounceInDown">{{ .title | markdownify | emojify }}</h1>
           <div class="animated-text">
             <strong class="cd-headline clip">
               <span class="cd-words-wrapper">
                 {{ range $index, $elements:= .occupations }}
-                <b {{ if eq $index 0 }} class="is-visible animate__animated animate__bounceInLeft animate__slower animate__delays-5s" {{ end }}>{{ . }}</b>
+                <b {{ if eq $index 0 }} class="is-visible animate__animated animate__bounceInLeft animate__slow" {{ end }}>{{ . }}</b>
                 {{ end }}
               </span>
             </strong>
           </div>
           {{ if .button.enable }}
           {{ with .button }}
-          <a class="hireMe animate__animated animate__zoomIn animate__slower animate__delays-2s" href="{{ .link }}">{{ .label }}</a>
+          <a class="hireMe animate__animated animate__bounceInUp animate__delay-1s" href="{{ .link }}">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
