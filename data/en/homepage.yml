@@ -33,9 +33,11 @@ fullscreen_nav:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/backgrounds/portrait.jpg"
+  image : "images/me.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "Hi, I'm Axel Mendoza. A machine learning engineer based in Paris. \
+  I dedicate myself to computer vision, blogging about AI and meditation. \
+  Always trying to create the best content for my fellow readers and staying close to an espresso cup."
   # button
   button:
     enable : true
