@@ -2130,6 +2130,12 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
+.animate__animated.animate__bounceIn {
+  --animate-delay: 20s;
+}
+
 /*--------------------------------
   End Contact
 ----------------------------------
+
+
