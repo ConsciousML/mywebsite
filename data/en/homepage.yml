@@ -33,7 +33,7 @@ fullscreen_nav:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/me.jpg"
+  image : "images/me_ratio.jpg"
   title : "KNOW MORE <br> ABOUT ME"
   content : "Hi, I'm Axel Mendoza. A machine learning engineer based in Paris. \
   I dedicate myself to computer vision, blogging about AI and meditation. \
