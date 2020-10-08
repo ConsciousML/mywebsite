@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Axel Mendoza Porfolio"
+title = "Axel Mendoza Website"
 theme = "somrat"
 # disable language
 disableLanguages = true # desable language from here
