@@ -72,23 +72,26 @@ experience:
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "SKILLS"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name : "Python"
       parcentage : "98%"
       
     # skill item loop
-    - name : "Graphic Design"
-      parcentage : "85%"
+    - name : "Tensorflow"
+      parcentage : "80%"
       
     # skill item loop
-    - name : "Database Management"
+    - name : "Pytorch"
       parcentage : "90%"
       
     # skill item loop
-    - name : "Wordpress"
+    - name : "C++"
       parcentage : "70%"
+    
+    - name : "Research investigation"
+      parcentage: "90%"
 
 
 ################################### Service ##############################3
