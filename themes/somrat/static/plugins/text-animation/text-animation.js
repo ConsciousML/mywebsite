@@ -1,9 +1,9 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 10000,
+	var animationDelay = 2500,
 		//clip effect 
-		revealDuration = 10000,
-		revealAnimationDelay = 10000;
+		revealDuration = 500,
+		revealAnimationDelay = 1500;
 	
 	initHeadline();
 	
