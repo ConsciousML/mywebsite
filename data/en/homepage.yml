@@ -126,12 +126,12 @@ service:
 
 ############################## call to action #########################
 call_to_action:
-  enable : false
-  bg_image : "images/backgrounds/need-service.jpg"
-  title : "NEED A SERVICE?"
+  enable : true
+  bg_image : "images/backgrounds/beans.jpg"
+  title : "WANT TO GRAB A COFFEE ?"
   button:
     enable : true
-    label : "SAY HELLO!"
+    label : "CONTACT ME"
     link : "#contact"
 
 
