@@ -1,6 +1,6 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Axel Mendoza"
+  title : "Axel Mendoza"
 
   # animated text loop
   occupations:
@@ -25,9 +25,9 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable : true
-  bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  bg_image : "images/backgrounds/coffeecup.jpg"
+  first_name : "Axel"
+  last_name : "MENDOZA"
   
 
 ########################### About ##################################
