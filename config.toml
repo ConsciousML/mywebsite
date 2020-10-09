@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Axel Mendoza Porfolio"
+title = "Axel Mendoza Website"
 theme = "somrat"
 # disable language
 disableLanguages = [] # desable language from here
@@ -84,8 +84,8 @@ weight = 6
 logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
-description = "This is meta description"
-author = "somrat"
+description = "I'm Axel Mendoza. A machine learning engineer based in Paris. I dedicate myself to computer vision, blogging about IA and meditation."
+author = "Axel Mendoza"
 # contact form action
 contact_form_action = "https://formspree.io/f/xoqpjqeq" # contact form works with https://formspree.io
 # Google Analitycs
