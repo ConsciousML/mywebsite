@@ -952,11 +952,11 @@ input:checked + label span:last-child {
   margin-top: 40px;
 }
 
-.experience h3,
-.skill h3 {
+h3 {
   color: #6f6f6f;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 33px;
 }
 
 .experience-chart {
@@ -1227,8 +1227,9 @@ ul.experience-chart h4 {
 .portfolio h1 {
   color: #6f6f6f;
   text-align: center;
+  font-size : 45px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   position: relative;
 }
 
@@ -2038,7 +2039,7 @@ textarea.form-control::-webkit-input-placeholder,
 
 @media (min-width:601px) and (max-width: 991px) {
   .about-me {
-    padding: 125px 0px 35px 0px;
+    padding: 70px 0px 35px 0px;
   }
 }
 
