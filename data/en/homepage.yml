@@ -34,7 +34,7 @@ fullscreen_nav:
 about:
   enable : true
   image : "images/me_ratio.jpg"
-  title : "About Me"
+  title : "ABOUT ME"
   content : "Hi, I'm Axel Mendoza. A machine learning engineer based in Paris. \
   I dedicate myself to computer vision, blogging about AI and meditation. \
   Always trying to create the best content for my fellow readers and staying close to an espresso cup."
@@ -47,7 +47,7 @@ about:
 ###########################3 Experience ##############################
 experience:
   enable : true
-  title : "Experience"
+  title : "EXPERIENCE"
   experience_list:
     # experience item loop
     - name : "SIEMENS"
@@ -72,7 +72,7 @@ experience:
 ############################### Skill #################################
 skill:
   enable : true
-  title : "Skills"
+  title : "SKILLS"
   skill_list:
     # skill item loop
     - name : "Python"
