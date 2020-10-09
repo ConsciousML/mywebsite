@@ -15,6 +15,10 @@ body {
   height: 100%;
 }
 
+.no-js body {
+  overflow: visible;
+}
+
 .all-container {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -103,8 +107,8 @@ body {
 }
 
 .bounceInLeft {
-  -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
 }
 
 .scroll-up {
