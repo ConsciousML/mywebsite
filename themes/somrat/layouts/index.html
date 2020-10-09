@@ -5,7 +5,7 @@
 <!-- =============================
       Start Header
     =============================== -->
-<section class="header" id="home">
+<section class="header animate__animated animate__slideInDown"id="home">
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -22,10 +22,10 @@
     <div class="row content">
       <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
         <div class="head-holder">
-          <h1 class="introduction">{{ .title | markdownify | emojify }}</h1>
+          <h1 class="introduction animate__animated animate__bounceInDown" style='animation-delay: 0.5s'>{{ .title | markdownify | emojify }}</h1>
           <div class="animated-text">
             <strong class="cd-headline clip">
-              <span class="cd-words-wrapper">
+              <span class="cd-words-wrapper animate__animated animate__bounceInLeft"style="animation-delay: 1s">
                 {{ range $index, $elements:= .occupations }}
                 <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
                 {{ end }}
@@ -34,7 +34,7 @@
           </div>
           {{ if .button.enable }}
           {{ with .button }}
-          <a class="hireMe" href="{{ .link }}">{{ .label }}</a>
+          <a class="hireMe animate__animated animate__bounceInUp" style='animation-delay: 1.5s' href="{{ .link }}">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>

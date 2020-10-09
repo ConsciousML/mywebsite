@@ -15,10 +15,6 @@ body {
   height: 100%;
 }
 
-.no-js body {
-  overflow: visible;
-}
-
 .all-container {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -85,9 +81,30 @@ body {
   }
 }
 
+
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+.backInDown {
+  -webkit-animation-name: backInDown;
+  animation-name: backInDown;
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
 }
 
 .scroll-up {
