@@ -53,15 +53,28 @@ experience:
     - name : "SIEMENS"
       company : "Machine Learning Intern"
       duration : "2019, 14 months"
-      content : "Deep Learning for healthcare. Coronary calcium classification on X-ray data using Unet and ResNet3D. \
-      Blood flow de-aliasing on 3D color doppler data."
+      content : "Improved physician diagnosis of heart disease by creating a coronary calcium detector trained on CT \
+      scans using Unet with Pytorch. \
+      Improved patient’s disease evaluation even further \
+      by classifying calcium in high and low risk arteries. \
+      Optimized model complexity to fit hospital needs by \
+      designing a faster approach using ResNet3D. \
+       Enhanced detection of mitral valve regurgitation by \
+      creating a blood flow dealiasing model using Unet \
+      trained on 3D color doppler data.
+"
       
     # experience item loop
     - name : "ENGIE"
       company : "Machine Learning Intern"
       duration : "2018, 7 months"
-      content : "Deep metric learning for multi-camera car re-identification and tracking for powerplant surveillance. \
-      Attended the European Conference on Computer Vision and implemented state-of-the-art triplet loss re-id model."
+      content : "Improved security of power-plants by designing a \
+      multi-camera vehicle re-identification and tracking \
+      system using Keras and TensorFlow. \
+      Implemented 2018 state-of-the-art solution and improved mean average precision by 6% by adapting a \
+      pedestrian re-id paper to vehicle tracking. \
+      Collaborated with the best researchers in the field \
+      after being invited to ECCV 2018."
 
     - name : "SAP"
       company : "Software Engineering Intern"

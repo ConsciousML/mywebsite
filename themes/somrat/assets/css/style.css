@@ -247,7 +247,7 @@ body {
 
 .slider-next-button {
   right: 40px;
-  transform: translateX(-15px);
+  transform: translateX(15px);
 }
 
 .slider-button:hover {
