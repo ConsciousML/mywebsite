@@ -952,6 +952,7 @@ input:checked + label span:last-child {
 
 .experience-skill {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -965,6 +966,7 @@ h3 {
   list-style: none;
   padding: 0px 0px 0px 6px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 ul.experience-chart li {
