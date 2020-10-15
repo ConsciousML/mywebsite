@@ -393,6 +393,41 @@
       <h1 class="wow fadeInUp" data-wow-duration="1.5s">PROJECTS</h1>
     </div>
     <br><br><br>
+
+    <!-- =============================
+       SmartCar
+    =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h3>Autonomous Remote Car <br>@ Home</h3>
+         <p>I designed an autonomous driving remote car by assembling a Raspberry on top of a remote-controlled car embedded with a Convolutional Neural Network.
+           The model was trained on some data captured while driving the car using an xbox controller.
+           This project was held during my last year at EPITA as a graduation project and was selected to be shown at my <a href="https://www.epita.fr/2018/04/05/presentation-projets-fin-etudes-promotion-2018-smartcar-majeure-data-science-intelligence-artificielle-scia/"}>university</a> open house.
+           I took the project again a few months later and built a more sophisticated car along with a data generation module.
+           I've won the <a href="https://www.meetup.com/DIY-Robocars-France">RobotCars</a> Winter 2018 championship and got ranked 3st at <a href="http://www.mylanderpages.com/ironcar2018/ironcar2018">IronCar</a> Summer 2018 tournament.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="https://github.com/ConsciousML/Autonomous-RC-Car" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         <a href="https://github.com/ConsciousML/Autonomous-RC-Car/raw/master/data/demo/v2.0/competition_03.mp4" class="download-cv hvr-icon-hang"> VIDEO &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/smartcar_ratio.jpg" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+    <br><br>
+
     <!-- =============================
        Car Re-ID
     =============================== -->
@@ -460,38 +495,6 @@
    {{ end }}
 
    <br><br>
-
-    <!-- =============================
-       SmartCar
-    =============================== -->
-   {{ if $data.homepage.about.enable }}
-   {{ with $data.homepage.about }}
-   <div class="row about-me-holder">
-     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
-       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
-         <h3>Autonomous Remote Car <br>@ Home</h3>
-         <p>Designed an autonomous driving remote car.
-           Assembled a Raspberry on top of a remote-controlled car embedded with a Convolutional Neural Network.
-            Trained the model on some data captured while driving the car using an xbox controller. This project was held during my last year at EPITA as
-            a graduation project and was selected to be shown at my university open house.
-         </p>
-         {{ if .button.enable }}
-         {{ with .button }}
-         <a href="https://github.com/ConsciousML/Autonomous-RC-Car" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
-         {{ end }}
-         {{ end }}
-       </div>
-     </div>
-     {{ with .image }}
-     <div class="col-lg-6 col-sm-6 col-9 wow fadeInUp" data-wow-duration="1.5s">
-       <img class="img-fluid" src="images/projects/smartcar_ratio.jpg" alt="about-me">
-     </div>
-     {{ end }}
-   </div>
-   {{ end }}
-   {{ end }}
-
-    <br><br>
 
     <!-- =============================
        ML BLOG
