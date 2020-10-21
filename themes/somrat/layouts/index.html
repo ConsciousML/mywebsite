@@ -428,6 +428,38 @@
 
     <br><br>
 
+
+   <!-- =============================
+       Car Re-ID
+   =============================== -->
+   {{ if $data.homepage.about.enable }}
+   {{ with $data.homepage.about }}
+   <div class="row about-me-holder">
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+       <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+         <h3>Image Processing CUDA @ Home</h3>
+         <p>CUDA C++ is a GPU programming language that uses a grid based approach to parallelisation.
+           Each GPU unit has a coordinate in the grid and computes a sub part of the process that allows a massive computing speed up.
+           I implemented blurring, de-noising and edge detection algorithms from scratch using only exclusively the CUDA C++ standard library.
+         </p>
+         {{ if .button.enable }}
+         {{ with .button }}
+         <a href="https://github.com/ConsciousML/img-processing-cuda" class="download-cv hvr-icon-hang"> READ MORE &nbsp; &nbsp; &nbsp;</a>
+         {{ end }}
+         {{ end }}
+       </div>
+     </div>
+     {{ with .image }}
+     <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center wow fadeInUp" data-wow-duration="1.5s">
+       <img class="img-fluid" src="images/projects/canny.png" alt="about-me">
+     </div>
+     {{ end }}
+   </div>
+   {{ end }}
+   {{ end }}
+
+   <br><br>
+
     <!-- =============================
        Car Re-ID
     =============================== -->
