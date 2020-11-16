@@ -4,7 +4,7 @@ hero:
 
   # animated text loop
   occupations:
-    - "Machine Learning Engineer"
+    - "Computer Vision Engineer"
     - "Data Science Blogger"
     - "Trilingual"
 
@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/me_ratio.jpg"
   title : "ABOUT ME"
-  content : "Hi, I'm Axel Mendoza. A machine learning engineer based in Paris. \
+  content : "Hi, I'm Axel Mendoza. A data scientist based in Paris. \
   I dedicate myself to computer vision, blogging about AI and meditation. \
   Always trying to create the best content for my fellow readers and staying close to an espresso cup."
   # button
@@ -50,8 +50,8 @@ experience:
   experience_list:
     # experience item loop
     - name : "SIEMENS"
-      company : "Machine Learning Intern"
-      duration : "2019, 14 months"
+      company : "Computer Vision Engineer"
+      duration : "Apr 2019 - Jun 2020, 14 months"
       content : "Improved physician diagnosis of heart disease by creating a coronary calcium detector trained on CT \
       scans using Unet with Pytorch. \
       Improved patient’s disease evaluation even further \
@@ -65,8 +65,8 @@ experience:
       
     # experience item loop
     - name : "ENGIE"
-      company : "Machine Learning Intern"
-      duration : "2018, 7 months"
+      company : "Computer Vision Intern"
+      duration : "May 2018 - Nov 2018, 7 months"
       content : "Improved security of power-plants by designing a \
       multi-camera vehicle re-identification and tracking \
       system using Keras and TensorFlow. \
@@ -77,7 +77,7 @@ experience:
 
     - name : "SAP"
       company : "Software Engineering Intern"
-      duration : "2016, 6 months"
+      duration : "Feb 2016 - Jul 2016, 6 months"
       content : "Implemented an automatic testing platform for SAP products."
 
 
