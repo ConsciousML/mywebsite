@@ -170,15 +170,18 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : false
+  enable : true
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
     - name : "Sai Rapaka"
       image : "images/clients/sai.jpg"
       designation : "Head of AI Strategy @ Siemens Healthineers"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
-                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+      content : "I had the pleasure of working with Axel during his apprenticeship at \
+      Siemens Healthineers as his research supervisor. \ 
+      Axel is an independent and quick learner, who was able to rapidly learn new concepts he was working on. \
+      He maintained good communication with the team, successfully completing the tasks assigned to him on multiple projects. \
+      Overall, it was a pleasure to work with him."
 
 
 ######################### funfacts #############################3
