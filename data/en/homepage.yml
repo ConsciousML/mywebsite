@@ -49,6 +49,15 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
+    - name : "STORELIFT"
+      company : "Computer Vision Engineer"
+      duration : "Dec 2020, Current"
+      content : "In charge of redesigning the person tracking and re- \
+      identification system of an autonomous grocery store. \
+      Improved the vision systems by creating a semi-automatic \
+      annotation pipeline."
+
+
     - name : "SIEMENS"
       company : "Computer Vision Engineer"
       duration : "Apr 2019 - Jun 2020, 14 months"
@@ -60,8 +69,8 @@ experience:
       designing a faster approach using ResNet3D. \
        Enhanced detection of mitral valve regurgitation by \
       creating a blood flow dealiasing model using Unet \
-      trained on 3D color doppler data.
-"
+      trained on 3D color doppler data."
+
       
     # experience item loop
     - name : "ENGIE"
